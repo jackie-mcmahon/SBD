@@ -5,6 +5,8 @@ Scripts by Design Sabre Scripts
 
 This repository is configured to track and share .exe files publicly. You can add executable files directly to the repository.
 
+⚠️ **Security Warning**: Executable files can contain malware. Only upload trusted executables from known sources. Users downloading .exe files from this repository should scan them with antivirus software before running.
+
 ### How to Add .exe Files
 
 1. Place your .exe file in the repository directory
@@ -18,4 +20,7 @@ The .exe files will be publicly accessible through GitHub once pushed.
 
 - .exe files are binary files and can increase repository size
 - Consider file size limits (GitHub has a 100MB file size limit per file)
-- For very large files (>50MB), consider using Git LFS (Large File Storage)
+- For very large files (>50MB), consider using [Git LFS (Large File Storage)](https://git-lfs.github.com/)
+  - Install Git LFS: `git lfs install`
+  - Track .exe files with LFS: `git lfs track "*.exe"`
+  - Then add, commit, and push as normal
