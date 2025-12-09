@@ -1,0 +1,18 @@
+# SBD - Scripts by Design
+# This repository intentionally tracks .exe files to share executables publicly
+# Do NOT add *.exe to this file - we want to include executable files
+
+# Common IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
